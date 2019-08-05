@@ -1,0 +1,68 @@
+{
+  "name": "TECWiki",
+  "version": "1.0",
+  "author": "Modern Tribe",
+  "url": "https://github.com/moderntribe/tec-docs",
+  "descriptionmsg": "Child skin of Bootstrap MediaWiki",
+  "namemsg": "Child skin of Bootstrap MediaWiki",
+  "license-name": "CC0-1.0",
+  "type": "skin",
+  "requires": {
+	"MediaWiki": ">= 1.29.0"
+  },
+  "ValidSkinNames": {
+	"tecwiki": "TECWiki"
+  },
+  "MessagesDirs": {
+	"TECWiki": [
+	  "i18n"
+	]
+  },
+  "ResourceModules": {
+	"skins.tecwiki": {
+	  "styles": {
+		"../BootstrapMediaWiki/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.min.css": {
+			"media": "screen"
+		},
+		"../BootstrapMediaWiki/vendor/twbs/bootstrap/dist/css/bootstrap-grid.min.css": {
+			"media": "screen"
+		},
+		"../BootstrapMediaWiki/vendor/twbs/bootstrap/dist/css/bootstrap.min.css": {
+			"media": "screen"
+		},
+		"../BootstrapMediaWiki/font-awesome/css/all.css": {
+			"media": "screen"
+		},
+		"../BootstrapMediaWiki/style.css": {
+			"media": "screen"
+		},
+		"resources/style.css": {
+			"media": "screen"
+		}
+	  }
+	},
+	"skins.tecwiki.js": {
+	  "scripts": [
+		"../BootstrapMediaWiki/resources/main.js",
+		"../BootstrapMediaWiki/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js",
+		"resources/main.js"
+	  ]
+	}
+  },
+  "ResourceFileModulePaths": {
+	"localBasePath": "",
+	"remoteSkinPath": "TECWiki"
+  },
+  "ResourceModuleSkinStyles": {
+	"example": {
+	  "+ext.echo.styles.badge": "resources/extensions/echo.styles.badge.less"
+	}
+  },
+  "AutoloadClasses": {
+	"SkinBootstrapMediaWiki": "../BootstrapMediaWiki/includes/SkinBootstrapMediaWiki.php",
+	"BootstrapMediaWikiTemplate": "../BootstrapMediaWiki/includes/BootstrapMediaWikiTemplate.php",
+	"SkinTECWiki": "includes/SkinTECWiki.php",
+	"TECWikiTemplate": "includes/TECWikiTemplate.php"
+  },
+  "manifest_version": 1
+}
