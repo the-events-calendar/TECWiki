@@ -6,3 +6,7 @@
 	position: relative;
 	top: -5px;
 }
+
+.mw-parser-output a.external.btn.btn-primary {
+	color: #fff;
+}
