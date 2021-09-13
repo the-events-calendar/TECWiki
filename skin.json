@@ -1,8 +1,8 @@
 {
   "name": "TECWiki",
   "version": "1.0",
-  "author": "Modern Tribe",
-  "url": "https://github.com/moderntribe/tec-docs",
+  "author": "The Events Calendar",
+  "url": "https://github.com/the-events-calendar/TECWiki",
   "descriptionmsg": "Child skin of Bootstrap MediaWiki",
   "namemsg": "Child skin of Bootstrap MediaWiki",
   "license-name": "CC0-1.0",
